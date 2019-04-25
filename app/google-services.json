@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "542747038637",
+    "firebase_url": "https://fypproject-f438b.firebaseio.com",
+    "project_id": "fypproject-f438b",
+    "storage_bucket": "fypproject-f438b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542747038637:android:21e4e81e9972e66e",
+        "android_client_info": {
+          "package_name": "bosunard.aston.com.finalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542747038637-4pul293cjcp3dgqd33j23qa4u5b4arvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bosunard.aston.com.finalyearproject",
+            "certificate_hash": "b0c952ec86fa3f036882aae5fc88a4cd770904da"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYKH5GluRcEoD5u0BqBPty8OKPp29lhL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542747038637-pp0k5ujtf0fieggfhajj9th724d2or8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

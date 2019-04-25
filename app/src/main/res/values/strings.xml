@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">FinalYearProject</string>
+    <string name="home_title">Home</string>
+    <string name="find_journey_title">Track Journey</string>
+    <string name="support_journey_title">Report</string>
+    <string name="report_incident_title">Report Incident</string>
+    <string name="departing_station_entry">From:</string>
+    <string name="arriving_station_entry">To:</string>
+    <string name="form_hint_1">Departing station</string>
+    <string name="form_hint_2">Arriving station</string>
+    <string name="title_find_journey">Find Journey</string>
+    <string name="title_updates">Updates</string>
+    <string name="title_saved_trips">Saved Trips</string>
+    <string name="title_report">Report</string>
+    <string name="title_profile">My Account</string>
+    <string name="find_journey_action">Lets Go!</string>
+    <string name="departing_station_hint">Enter departing station</string>
+    <string name="arriving_station_hint">Enter arriving station</string>
+    <string name="departing_date_time">Departing Date/Time</string>
+    <string name="departing_time_hint">Enter departing Time</string>
+    <string name="prompt_email_message">Email</string>
+    <string name="prompt_password_message">Password</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="add_journey_title">One Last Thing...</string>
+    <string name="add_journey_label">TRACK JOURNEY</string>
+
+    <string name="transport_api_id">2ed72192</string>
+    <string name="transport_api_key">8f82c455f34e9bc13a29571912d6920a </string>
+
+    <string name="google_map_api_key">AIzaSyA3oYfhn7qpGj_o2jVoA8nBvBhg9s-Xmds</string>
+    <string name="default_web_client_id">AIzaSyBzeAWos9X_5fnN9ed4BPrsKi9B3D3v_Uo</string>
+
+    <string name="live_tab_title">Live</string>
+    <string name="updates_tab_title">Updates</string>
+    <string name="share_tab_title">Share</string>
+
+
+    <string name="upcoming_tab_title">Current</string>
+    <string name="past_tab_title">Past</string>
+
+    <string name="trips_title">JOURNEYS</string>
+    <string name="emergency_trips_title">EMERGENCY CONTACTS</string>
+
+    <!-- Firestore Strings -->
+    <string name="collection_users">Users</string>
+    <string name="collection_chatrooms">Chatrooms</string>
+    <string name="collection_chat_messages">Chat Messages</string>
+    <string name="collection_chatroom_user_list">User List</string>
+    <string name="collection_user_locations">User Locations</string>
+
+
+     <!-- MAP Options -->
+    <string name="normal_map">Normal</string>
+    <string name="hybrid_map">Hybrid</string>
+    <string name="satellite_map">Satellite</string>
+    <string name="terrain_map">Terrain</string>
+
+
+</resources>

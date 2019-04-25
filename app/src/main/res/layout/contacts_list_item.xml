@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+
+<ImageView
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:id="@+id/contact_thumbnail"
+    android:background="@drawable/ic_circle_place_holder"
+    android:layout_marginTop="22dp"
+    android:layout_marginStart="22dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name"
+        android:layout_toEndOf="@id/contact_thumbnail"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_number"
+        android:layout_toEndOf="@id/contact_thumbnail"
+        android:layout_below="@id/contact_name"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
+
+        />
+
+    <RadioButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/add_contact_radio_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="14dp"
+        />
+
+</RelativeLayout>

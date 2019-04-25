@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/linearLayout"
+        android:layout_width="330dp"
+        android:layout_height="480dp"
+        android:layout_below="@id/relLayout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#F49A0B"
+        android:elevation="4dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:background="@drawable/layout_bg"
+            android:layout_marginTop="40dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/departing_arriving_stations"
+                android:layout_marginTop="22dp"
+                android:layout_marginStart="18dp"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/journey_time"
+                android:layout_below="@id/departing_arriving_stations"
+                android:layout_marginTop="14dp"
+                android:textSize="34sp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <com.baoyachi.stepview.VerticalStepView
+                android:id="@+id/verticalStepView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_below="@id/journey_time"
+                android:layout_marginStart="18dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/train_journey_destination"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/train_journey_service"
+                android:textSize="18sp"
+                android:layout_below="@id/verticalStepView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="18dp"
+                />
+
+        </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

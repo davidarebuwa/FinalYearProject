@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StationList>
+    <Station>
+        <CrsCode>BHM</CrsCode>
+        <StationName>Birmingham New Street</StationName>
+        <Longitude>-1.898360826</Longitude>
+        <Latitude>52.47819419</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>FWY</CrsCode>
+        <Name>Five Ways</Name>
+        <Longitude>-1.912951496</Longitude>
+        <Latitude>52.47110355</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>UNI</CrsCode>
+        <Name>University (Birmingham)</Name>
+        <Longitude>-1.936681677</Longitude>
+        <Latitude>52.45125019</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>SLY</CrsCode>
+        <Name>Selly Oak</Name>
+        <Longitude>-1.935812243</Longitude>
+        <Latitude>52.44198975</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>BRV</CrsCode>
+        <Name>Bournville</Name>
+        <Longitude>-1.926421682</Longitude>
+        <Latitude>52.4269705</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>KNN</CrsCode>
+        <Name>Kings Norton</Name>
+        <Longitude>-1.933795298</Longitude>
+        <Latitude>52.4134894</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>NFD</CrsCode>
+        <Longitude>-1.965850518</Longitude>
+        <Latitude>52.40819871</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>LOB</CrsCode>
+        <Name>Longbridge</Name>
+        <Longitude>-1.981291124</Longitude>
+        <Latitude>52.39642483</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>EUS</CrsCode>
+        <Name>London Euston</Name>
+        <Longitude>-0.134558479</Longitude>
+        <Latitude>51.52837626</Latitude>
+    </Station>
+    <Station>
+        <CrsCode>BHI</CrsCode>
+        <Name>Birmingham International</Name>
+        <Longitude>-1.725863394</Longitude>
+        <Latitude>52.45081461</Latitude>
+    </Station>
+
+</StationList>
+
+

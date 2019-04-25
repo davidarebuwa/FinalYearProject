@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+
+    />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="?android:attr/windowBackground"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floating_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="115dp"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="true"
+        app:menu_icon="@drawable/ic_shield_white"
+        app:menu_fab_label=""
+        app:menu_showShadow="true"
+        app:menu_colorNormal="@color/colorPrimary"
+        app:menu_openDirection="up"
+        app:menu_backgroundColor="@android:color/transparent"
+        >
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/camera_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fab_colorNormal="#008080"
+            android:background="@color/colorPrimary"
+            app:fab_label="Take Photo/Video"
+            android:src="@drawable/ic_photo_camera_white_24dp"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/audio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fab_colorNormal="@color/light_blue"
+            app:fab_colorPressed="@color/red"
+            app:fab_label="Audio"
+            app:fab_progress_color="@color/red"
+            app:fab_progress_max="100"
+            android:src="@drawable/ic_mic_black_24dp"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/alarm_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fab_label="Trigger Alarm"
+            android:src="@drawable/ic_alarm_black_24dp"
+            />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+</RelativeLayout>

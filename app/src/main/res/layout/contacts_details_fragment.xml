@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/contact_thumbnail"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/ic_list_placeholder"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/more_options_button"
+        android:background="@drawable/ic_options"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="12dp"
+        />
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/contact_thumbnail"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="18dp"
+        android:text="Name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name_detail"
+        android:layout_below="@id/name_title"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="18dp"
+        android:textSize="20sp"
+
+        />
+
+
+    <View
+        android:id="@+id/second_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/contact_name_detail"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/phone_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_divider"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="18dp"
+        android:text="Phone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_number_detail"
+        android:layout_below="@id/phone_title"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="18dp"
+        android:textSize="20sp"
+
+        />
+
+
+    <View
+        android:id="@+id/third_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/contact_number_detail"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share_journey_title"
+        android:layout_below="@id/third_divider"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="65dp"
+        android:text="Share Journey with contact"
+
+
+        />
+
+    <com.nightonke.jellytogglebutton.JellyToggleButton
+        android:id="@+id/share_journey_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:jtbJelly="itself"
+        app:jtbLeftText="On"
+        app:jtbRightText="Off"
+        android:layout_below="@id/third_divider"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share_emergency_details_title"
+        android:layout_below="@id/share_journey_title"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="18dp"
+        android:text="Share Medical ID"
+        />
+
+    <com.nightonke.jellytogglebutton.JellyToggleButton
+        android:id="@+id/share_emergency_details_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:jtbJelly="itself"
+        app:jtbLeftText="On"
+        app:jtbRightText="Off"
+        android:layout_below="@id/share_journey_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="12dp"
+        />
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:id="@+id/save_button"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorAccent"/>
+
+
+</RelativeLayout>
